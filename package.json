@@ -4,7 +4,7 @@
   "description": "Modelo de cardápio para vendas online",
   "main": "index.js",
   "scripts": {
-    "goP": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+    "bathine": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
   },
   "keywords": [],
   "author": "",
