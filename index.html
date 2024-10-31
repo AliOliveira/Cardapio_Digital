@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./styles/output.css"> 
-    <title>Document</title>
+    <title>Bathine Pizzaria</title>
 
 </head>
 <body>
@@ -29,7 +29,117 @@
   </header>
     <!--End Header-->
 
-  <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">C</h2>
+  <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Confira o nosso Cardapio</h2>
+   
+  <!-- MENU --> 
+  <div id="menu">
+
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+      <!-- PRODUTO -->
+      <div class="flex gap-2">
+        <img 
+        src="assets/calabresa.jpg" 
+        alt="Pizza Calabresa"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+        <div>
+          <p class="font-bold">Pizza Calabresa</p>
+          <p class="text-sm">Massa leve, assada em forno à lenha</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 22.90</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-cart-btn"
+              data-name="Pizza Calabresa"
+              data-price="22.90"
+            >
+              <i class="bi bi-cart text-lg text-white"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- FIM PRODUTO -->
+
+      <!-- PRODUTO -->
+      <div class="flex gap-2">
+        <img 
+        src="assets/mussarela.jpg" 
+        alt="Pizza Mussarela"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+        <div>
+          <p class="font-bold">Pizza Mussarela</p>
+          <p class="text-sm">Massa leve, assada em forno à lenha</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 19.90</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-cart-btn"
+              data-name="Pizza Mussarela"
+              data-price="19.90"
+            >
+              <i class="bi bi-cart text-lg text-white"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- FIM PRODUTO -->
+        <!-- PRODUTO -->
+      <div class="flex gap-2">
+        <img 
+        src="assets/portuguesa.jpg" 
+        alt="Pizza Portuguesa"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+        <div>
+          <p class="font-bold">Pizza Portuguesa</p>
+          <p class="text-sm">Massa leve, assada em forno à lenha</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 25.90</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-cart-btn"
+              data-name="Pizza Portuguesa"
+              data-price="25.90"
+            >
+              <i class="bi bi-cart text-lg text-white"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- FIM PRODUTO -->
+      <!-- PRODUTO -->
+      <div class="flex gap-2">
+        <img 
+        src="assets/marguerita.jpeg" 
+        alt="Pizza Marguerita"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+        <div>
+          <p class="font-bold">Pizza Marguerita</p>
+          <p class="text-sm">Massa leve, assada em forno à lenha</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 20.90</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-cart-btn"
+              data-name="Pizza Marguerita"
+              data-price="20.90"
+            >
+              <i class="bi bi-cart text-lg text-white"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- FIM PRODUTO -->
+    </main>
     
+    <div class=" mx-auto max-w-7xl px-2 my-2">
+      <h2 class="font-bold text-3xl">Bebidas</h2>
+    </div>
+
+
+  </div>
+  <!-- END MENU -->
 </body>
 </html>
